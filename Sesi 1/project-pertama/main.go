@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+//------------------------------------------------------------------------------------------------------------------------------
+	//VARIABLES
 		//Println for new line print
     // fmt.Println("Hello, World!")
 		// fmt.Println("Adittiya", "Jordan")
@@ -57,9 +59,41 @@ func main() {
 		// fmt.Printf("the data type of the first variable is %T \n", first)
 		// fmt.Printf("the data type of the second variable is %T \n", second)
 
-		var name = "Adittiya"
-		var age = 2000
-		var address = "West Sumatra"
+		// var name = "Adittiya"
+		// var age = 2000
+		// var address = "West Sumatra"
 
-		fmt.Printf("Hello my name is %s, I'm %d years old, i lived in %s", name, age, address)
+		// fmt.Printf("Hello my name is %s, I'm %d years old, i lived in %s", name, age, address)
+
+//-----------------------------------------------------------------------------------------------------------------------------------------
+		//DATA TYPES
+
+		//Data types in golang
+		//1.Basic Type: number, string, boolean.
+		//2.Aggregate Type: array dan struct.
+		//3.Reference Type: slice, pointer, map, function, channel
+		//4.Interface Type: interface.
+
+		//number integer
+		// var first uint8 = 10
+		// var second int8 = -23
+
+		// fmt.Printf("First data types is : %T \n", first)
+		// fmt.Printf("Second data types is : %T \n", second)
+
+		//number float
+		// var decimalNumber float32 = 3.63
+
+		// fmt.Printf("Decimal Number: %f\n", decimalNumber)
+		// fmt.Printf("Decimal Number: %.3f\n", decimalNumber)
+
+		//Booleans
+		// var condition bool = true
+		// fmt.Printf("is permitted? %t \n", condition)
+
+		//String
+		var message string = `Welcome to the "Golang" course!!!!`
+
+		fmt.Println(message)
+
 }
