@@ -92,8 +92,45 @@ func main() {
 		// fmt.Printf("is permitted? %t \n", condition)
 
 		//String
-		var message string = `Welcome to the "Golang" course!!!!`
+		// var message string = `Welcome to the "Golang" course!!!!`
 
-		fmt.Println(message)
+		// fmt.Println(message)
+
+//--------------------------------------------------------------------------------------------------------------------
+		//CONSTANT AND OPERATOR
+		
+		//Constant
+		// const fullName string = "Adittiya Asril"
+
+		// fmt.Printf("Hello %s", fullName)
+
+		//Operator
+		//Arithmetic Operator
+		// var value int = 2 + 2 * 3
+		// fmt.Println(value)
+
+		//Relational Operator
+		// var firstCondition bool = 2 > 3
+		// var secondCondition bool = "joey" == "Joey"
+		// var thirdCondition bool = 10 != 2.3
+		// var fourthCondition bool = 11 <= 11
+
+		// fmt.Println("first condition", firstCondition)
+		// fmt.Println("second condition", secondCondition)
+		// fmt.Println("third condition", thirdCondition)
+		// fmt.Println("forth condition", fourthCondition)
+
+		//Logical Operator
+		var right bool = true
+		var wrong bool = false
+
+		var rightAndWrong =(right && wrong)
+		fmt.Printf("right and wrong \t(%t) \n", rightAndWrong)
+
+		var rightOrWrong =(right || wrong)
+		fmt.Printf("right or wrong \t(%t) \n", rightOrWrong)
+
+		var wrongReverse =!wrong
+		fmt.Printf("right and wrong \t(%t) \n", wrongReverse)
 
 }
