@@ -1,8 +1,8 @@
-##Learn Golang
+## Learn Golang
 
 This project is my collection of code examples learned during the "Scalable Web Service with Golang" training program conducted by Kominfo in collaboration with Hacktiv8.
 
-##Overview
+## Overview
 This project focuses on implementing scalable and efficient web services using Go. Through this project, we aim to showcase the following key aspects:
 
 - Understanding the principles of scalable web service architecture.
